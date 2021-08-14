@@ -1,7 +1,7 @@
 
 /******************************************************************************
   *
-  * Example software provided by Bostin Technology Ltd
+  * Example software provided by SiliconSoup
   *
   * This software comes with no warrently and is provided as a demo application
   * for use with the ST25R3911B NFC controller
@@ -39,7 +39,7 @@
 #include "rfal_nfcDep.h"
 #include "rfal_analogConfig.h"
 
-const char* LOG_HEADER = "\r\nDemo Software provided by Bostin Technology\n\rScanning for NFC technologies \n\r";
+const char* LOG_HEADER = "\r\nDemo Software provided by SiliconSoup\n\rScanning for NFC technologies \n\r";
 
 
 
@@ -192,9 +192,9 @@ int splashscreen(void)
 {
     platformLogClear();
     printf("\n***********************************************\n");
-    printf("*             Bostin Technology               *\n");
+    printf("*                SiliconSoup                  *\n");
     printf("*                                             *\n");
-    printf("*               iCode Reader                  *\n");
+    printf("*               NFC Tag Reader                *\n");
     printf("*                                             *\n");
     printf("*           Based on the ST25R3911B           *\n");
     printf("*             demo provided by ST             *\n");
